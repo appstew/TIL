@@ -37,3 +37,14 @@
 1. 1
 2. 2
 3. 3
+
+-----
+This is a normal paragraph.
+
+    This is a code block with a tab key.
+------
+
+This is a normal paragraph.
+> This is a code block with a > key.
+-------
+
