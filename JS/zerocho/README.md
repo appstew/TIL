@@ -112,3 +112,75 @@ if (3*8 === Number(답)) {
 
 '딩동댕'
 ```
+```js
+var 값 = 0
+while (값<100) {
+  console.log(값)
+	값 = 값 + 1
+}
+
+>0~100
+```
+```js
+var dateChecker = function() {
+  var date = new date();
+	alert(date);
+}
+dateChecker
+```
+>다음에서 zero 를 객체, {}안의 것을 속성, firstName과 lastName 을 키라고 한다.
+```js
+var zero = {
+  firstName: 'Zero',
+    lastName: 'Cho'
+};
+
+zero
+Object { firstName: "Zero", lastName: "Cho" }
+
+zero['firstName'];
+"Zero"
+zero.firstName
+"Zero" 
+
+zero.lastName = 'Lee';
+zero.lastName
+"Lee"
+```
+```js
+var zero = {
+  body: {
+    height: 173,
+    weight: 66
+  },
+    name: {
+        firstName: 'Zero',
+        lastName: 'Cho'
+  }
+};
+undefined
+zero
+Object { body: {…}, name: {…} }
+
+zero.body.weight
+66
+zero.name.firstName
+"Zero" 
+```
+>배열(Array). 여기서 0과 1가 객체에서의 키에 해당한다.
+
+```js
+var zero = ['Zero', 'Cho']
+undefined
+
+>
+zero
+Array [ "Zero", "Cho" ]
+zero[0]
+"Zero"
+zero[1]
+"Cho" 
+```
+>위 배열은 다음 객체랑 비슷하다.
+```js
+va
