@@ -41,13 +41,38 @@
 -터미널에서 node 입력
 -clear 용도로 F1> keybindings.json  
 
-    -자바콘솔에서 clear ctrl+k 단축키 설정 방법
-    -F1> keybindings.json 열고
+```
+    #자바콘솔에서 clear ctrl+k 단축키 설정 방법
+    #F1> keybindings.json 열고
     {
         "key": "ctrl+k",
         "command": "workbench.action.terminal.clear",
         "when": "terminalFocus"
     }
     저장
-
+```
+```js
+    > 5>=5
+    true
+    > '5'>"5"
+    false
+    > 5 === 5
+    true
+    > 5 == '5'
+    true
+    > 5 === '5'
+    false
+```
+```js
+    > var f = '제로초'
+    undefined
+    > f
+    '제로초'
+    > var d = 3*5
+    undefined
+    > d
+    15
+    > d === 15
+    true
+```
 
